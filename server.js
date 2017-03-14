@@ -1,11 +1,11 @@
 
-var express = require('express');
+var express = require("express");
 
 // Create our app
 var app = express();
 
-app.use(express.static('public'));
+app.use(express.static("public"));
 
 app.listen(3000, function () {
-  console.log('Express сервер на 3000 порту');
+  console.log("Express сервер на 3000 порту");
 });
